@@ -28,11 +28,16 @@
             }
                fclose($fi);
         }
+       
+        /**
+        * @brief  处理上传的数据
+        * @fileSavePath 上传的路径
+        * @fileParamName 设置的文件属性名称
+        */
         public static function upload($fileSavePath,$fileParamName){
-            $name = $_FILES["file"]["name"];
+            $name = $_FILES[$fileParamName]["name"];
             //$name = $time.$name;
-            move_uploaded_file($_FILES["file"]["tmp_name"],"upload/$name");
-
+            move_uploaded_file($_FILES[$fileParamName]["tmp_name"],"upload/$name");
         }
 
         public static function createNewFile($fileName,$filePath){
