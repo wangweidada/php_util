@@ -3,11 +3,6 @@
     "description": "some lib writen by me",
     "require": {
         "php": "^5.3.3 || ^7.0"
-        
-    },
-    "autoload": {
-		    "psr-4": {
-                "php_utilFile": "fileUpload\\"
-             }
-	 } 
+    }
+    
 }
