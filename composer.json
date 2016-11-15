@@ -2,6 +2,7 @@
     "name": "wangwei/php_util",
     "description": "1.1",
     "type": "library",
+    "license": "MITT",
     "minimum-stability": "dev",
     "require": {}
 }
