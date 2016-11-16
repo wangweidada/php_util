@@ -4,5 +4,8 @@
     "type": "library",
     "license": "MITT",
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {"php_util\\": ""}
+    }
 }
