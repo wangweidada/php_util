@@ -1,4 +1,5 @@
 <?php
+    namespace phpUtil\fileUpload;
     class myUtil_FILE
     {
         /**
