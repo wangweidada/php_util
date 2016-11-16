@@ -52,5 +52,8 @@
         public static function readContent($file,$filePath){
             
         }
+        public static function testClass(){
+            echo "if you could see this, this is success!<br/>";
+        }
     }
 ?>
